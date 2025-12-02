@@ -3,19 +3,19 @@ export default async function Page() {
     <>
       <header>
         <div className="mx-auto max-w-5xl px-4 sm:px-6 md:px-8">
-          <h1>Innovative Biowaste Valorisation: Advancing Biomass Recycling through Technology and AI</h1>
-          <div className="mt-8 space-y-2">
-            <p>
-              The CIRCULAR FUELS project is a four-year, integrated programme focused on tackling crucial biomass
-              utilization challenges within the framework of the circular economy. We aim to revolutionize the recycling
-              of biowaste into high-value chemicals and materials using innovative technologies.
-            </p>
-          </div>
+          <h1>Innovative Biowaste Valorisation</h1>
+          <p className="mt-4">Advancing Biomass Recycling through Technology and AI</p>
+          <p className="mt-8">
+            The CIRCULAR FUELS project is a four-year, integrated programme focused on tackling crucial biomass
+            utilization challenges within the framework of the circular economy. We aim to revolutionize the recycling
+            of biowaste into high-value chemicals and materials using innovative technologies.
+          </p>
         </div>
       </header>
       <section className="mb-20 space-y-20 pt-20 sm:mb-32 sm:space-y-32 sm:pt-32 md:mb-40 md:space-y-40 md:pt-40">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 md:px-8">
-          <h2>Our Objective: Closing the Loop with Biowaste</h2>
+          <h2>Our Objective</h2>
+          <p className="mt-4">Closing the Loop with Biowaste</p>
           <div className="mt-8 space-y-2">
             <p>
               Funded by the EU&apos;s Marie Skłodowska-Curie Actions (MSCA) Staff Exchanges programme, CIRCULAR FUELS is
