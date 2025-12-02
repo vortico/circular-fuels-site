@@ -17,7 +17,7 @@ export default function Layout({ children }: { children: ReactNode }) {
       </div>
       <div className="mt-12 flex flex-1 flex-col items-stretch justify-stretch">
         <main className="bg-primary-50 flex-1">{children}</main>
-        <div className="bg-primary-700 h-30 flex-none">
+        <div className="bg-primary-800 h-30 flex-none">
           <div className="mx-auto h-full w-full max-w-5xl px-4 md:px-6 lg:px-8">
             <Footer />
           </div>

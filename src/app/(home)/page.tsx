@@ -1,3 +1,6 @@
+import Image from 'next/image'
+import Link from 'next/link'
+
 export default async function Page() {
   return (
     <>
@@ -41,6 +44,21 @@ export default async function Page() {
               generating and exchanging expertise between academic and non-academic sectors.
             </p>
           </div>
+        </div>
+      </section>
+      <section className="">
+        <div className="border-primary-700/25 mx-auto flex max-w-5xl flex-col items-center justify-between gap-4 border-t px-4 py-12 sm:gap-6 sm:px-6 md:flex-row md:gap-8 md:px-8">
+          <p className="text-lg md:text-xl">
+            Funded by the European Union under HORIZON-MSCA-2024-SE-01 Project reference: 101235948
+          </p>
+          <Link href="https://european-union.europa.eu/">
+            <Image
+              height={200}
+              width={400}
+              src="/images/home/FundedByEUHorizontal.png"
+              alt="Funded by the European Union"
+            />
+          </Link>
         </div>
       </section>
     </>
