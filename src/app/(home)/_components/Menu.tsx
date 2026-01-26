@@ -18,6 +18,10 @@ const items: Item[] = [
     title: 'News & Events',
     href: '/news/',
   },
+  {
+    title: 'Secondments',
+    href: '/secondments/',
+  },
 ]
 
 export default function Menu() {

@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function Header() {
   return (
     <header className="flex h-full w-full items-center justify-between">
-      <div className="">
+      <div>
         <Image height={100} width={200} src="/images/Logo.png" alt="Circular Fuels logo" />
       </div>
       <Link href="https://european-union.europa.eu/">
