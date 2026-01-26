@@ -14,17 +14,17 @@
   /* Colors */
   --color-*: initial;
 
-  --color-accent-50: #2c64ff;
-  --color-accent-100: #005afe;
-  --color-accent-200: #0050e3;
-  --color-accent-300: #0045c8;
-  --color-accent-400: #003db4;
-  --color-accent-500: #003399;
-  --color-accent-600: #002a82;
-  --color-accent-700: #001f65;
-  --color-accent-800: #00164e;
-  --color-accent-900: #000d37;
-  --color-accent-950: #00082a;
+  --color-accent-50: oklch(87.889% 0.05718 133.97);
+  --color-accent-100: oklch(85.838% 0.06821 134.51);
+  --color-accent-200: oklch(81.514% 0.08983 134.71);
+  --color-accent-300: oklch(77.22% 0.11119 134.98);
+  --color-accent-400: oklch(72.986% 0.13069 135.54);
+  --color-accent-500: oklch(68.382% 0.14436 135.78);
+  --color-accent-600: oklch(61.023% 0.1272 135.76);
+  --color-accent-700: oklch(53.699% 0.11095 135.89);
+  --color-accent-800: oklch(45.841% 0.09248 135.9);
+  --color-accent-900: oklch(37.7% 0.07235 135.21);
+  --color-accent-950: oklch(33.586% 0.06235 135.5);
 
   --color-primary-50: #f6f6f6;
   --color-primary-100: #ebebeb;
