@@ -18,7 +18,7 @@ const members: TMember[] = [
         </p>
         <br />
         <p>
-          USE participates in CIRCULAR FUELS through Surface Science & Catalysis laboratory
+          USE participates in CIRCULAR FUELS through Surface Science & Catalysis laboratory{' '}
           <a href="https://surfcat.icms.us-csic.es/">SURFCAT</a> being Prof. Tomas R. Reina the main contact for the
           project. SURFCAT possess over 40 years of experience in catalysis for energy and environmental applications
           and their labs at the <a href="https://www.icms.us-csic.es/en/inicio">Materials Science Institute</a> are
@@ -57,7 +57,7 @@ const members: TMember[] = [
         <p>
           UHOH participates in CIRCULAR FUELS through the Department{' '}
           <a href="https://konversionstechnologie.uni-hohenheim.de/en/">
-            &apos;Conversion Technologies of Biobased Resources&apos;
+            Conversion Technologies of Biobased Resources
           </a>
           , represented by its chairholder{' '}
           <a href="https://hohcampus.verw.uni-hohenheim.de/qisserver/pages/startFlow.xhtml?_flowId=showPublicOrgunitHierarchy-flow&personOrgunitRelationId=1376&object=PersonOrgunitRelation&navigationPosition=organisation,searchhisinonepersonorgunitrelation">
@@ -69,8 +69,8 @@ const members: TMember[] = [
           </a>{' '}
           as main contacts for the project. Research activities focus on the development of innovative separation
           technology, processes for the production of platform chemicals, and novel approaches for the production and
-          characterization of carbon materials{' '}
-          <a href="https://www.youtube.com/channel/UCR7BJTJMTFX1__13CudnXiQ">(...more on our YouTube Channel)</a>.
+          characterization of carbon materials (
+          <a href="https://www.youtube.com/channel/UCR7BJTJMTFX1__13CudnXiQ">...more on our YouTube Channel</a>).
         </p>
         <br />
         <p>

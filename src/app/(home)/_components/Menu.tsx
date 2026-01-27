@@ -31,7 +31,7 @@ export default function Menu() {
         {items.map(({ title, href }, i) => (
           <li key={i} className="h-full w-full">
             <Link href={href}>
-              <div className="hover:border-accent-500/50 flex h-full w-full items-center justify-center border-b-4 border-transparent transition-colors">
+              <div className="hover:border-accent-500/50 text-primary-600 flex h-full w-full items-center justify-center border-b-4 border-transparent transition-colors">
                 {title}
               </div>
             </Link>

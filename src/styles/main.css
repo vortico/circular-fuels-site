@@ -60,6 +60,10 @@
     @apply text-lg font-normal uppercase sm:text-xl lg:text-2xl;
   }
 
+  a {
+    @apply text-accent-500;
+  }
+
   input[type='date']::-webkit-calendar-picker-indicator,
   input[type='time']::-webkit-calendar-picker-indicator,
   input[type='datetime-local']::-webkit-calendar-picker-indicator {
