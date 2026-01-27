@@ -11,7 +11,7 @@ export default function Section() {
         high-value chemicals and materials using innovative technologies.
       </p>
       <div className="mt-8 flex items-center justify-center">
-        <Image height={130} width={640} src="/images/home/Proyecto.png" alt="Project diagram" />
+        <Image className="h-auto" height={495} width={640} src="/images/home/Proyecto.png" alt="Project diagram" />
       </div>
     </>
   )

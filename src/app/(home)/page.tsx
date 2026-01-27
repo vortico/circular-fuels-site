@@ -42,8 +42,8 @@ export default async function Page() {
           </p>
           <Link href="https://european-union.europa.eu/">
             <Image
-              height={200}
-              width={400}
+              width={538}
+              height={120}
               src="/images/home/FundedByEUHorizontal.png"
               alt="Funded by the European Union"
             />

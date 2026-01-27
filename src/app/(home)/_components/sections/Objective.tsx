@@ -31,7 +31,7 @@ export default function Section() {
         </p>
       </div>
       <div className="mt-8 flex items-center justify-center">
-        <Image height={130} width={640} src="/images/home/WPs.png" alt="WPs" />
+        <Image className="w-auto" height={311} width={640} src="/images/home/WPs.png" alt="WPs" />
       </div>
     </>
   )
