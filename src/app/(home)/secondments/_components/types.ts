@@ -3,6 +3,5 @@ export interface Secondment {
   researcher: string
   from: string
   secondment: string
-  start: Date
-  end: Date
+  date: Date
 }

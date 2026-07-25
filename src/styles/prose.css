@@ -45,6 +45,10 @@
       @apply text-sm;
     }
 
+    p {
+      @apply my-5;
+    }
+
     ul {
       > li {
         &::before {
@@ -56,10 +60,10 @@
           @apply bg-primary-300 absolute left-0 rounded-full;
         }
 
-        @apply relative pl-6;
+        @apply relative my-2 pl-6;
       }
 
-      @apply list-none pl-0;
+      @apply my-5 list-none pl-0;
     }
 
     a {
@@ -129,12 +133,24 @@
 
     figure {
       figcaption {
+        /* MDX wraps captions in a paragraph when the source spans several lines. */
+        p {
+          @apply my-0;
+        }
+
         @apply text-center italic;
       }
 
       > figcaption {
         @apply mt-3.5;
       }
+
+      /* Spacing is owned by the figure so images and captions stay together. */
+      > * {
+        @apply my-0;
+      }
+
+      @apply my-8;
     }
 
     nav {

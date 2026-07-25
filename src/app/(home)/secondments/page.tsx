@@ -1,7 +1,15 @@
 import Secondment from './_components/Secondment'
 import type { Secondment as TSecondment } from './_components/types'
 
-const secondments: TSecondment[] = []
+const secondments: TSecondment[] = [
+  {
+    image: '/images/secondments/2026-07-15.jpeg',
+    from: 'Universidad de Sevilla',
+    secondment: 'GreenX Technology Ltd',
+    researcher: 'Tomás Ramírez Reina',
+    date: new Date('2026-07-15'),
+  },
+]
 
 export default async function Page() {
   return (
@@ -62,7 +70,7 @@ export default async function Page() {
           <div className="mt-4">
             <ul className="space-y-16">
               {secondments
-                .sort((a, b) => a.start.getTime() - b.start.getTime())
+                .sort((a, b) => a.date.getTime() - b.date.getTime())
                 .map((secondment, i) => (
                   <li key={i}>
                     <Secondment secondment={secondment} />

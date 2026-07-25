@@ -106,16 +106,18 @@ const secondments: TSecondment[] = [
     from: 'Universidad de Sevilla',
     secondment: 'GreenX Technology Ltd',
     researcher: 'Tomás Ramírez Reina',
-    start: new Date('2026-07-15'),
-    end: new Date('2026-07-15'),
+    date: new Date('2026-07-15'),
   },
 ]
 ```
 
-All six fields are required: `researcher` is the person travelling, `from` their home organisation, and `secondment` the
-organisation hosting them. The list is sorted by `start`, so entries can be added in any order.
+All five fields are required: `researcher` is the person travelling, `from` their home organisation, and `secondment` the
+organisation hosting them. The list is sorted by `date`, so entries can be added in any order.
 
-The `image` lives in `public/images/secondments/` and is named after the start date. It is rendered at a fixed 200×80,
+Give `date` the day the secondment starts. It is displayed as the season it falls in, so the example above is shown as
+`Summer 2026`.
+
+The `image` lives in `public/images/secondments/` and is named after that same date. It is rendered at a fixed 200×80,
 so prepare a wide crop; a 4:3 photo used as-is will look squashed.
 
 ## Adding a Deliverable
