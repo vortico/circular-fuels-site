@@ -4,4 +4,6 @@ export interface Secondment {
   from: string
   secondment: string
   date: Date
+  startDate: Date
+  endDate: Date
 }

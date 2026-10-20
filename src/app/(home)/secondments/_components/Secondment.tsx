@@ -6,10 +6,19 @@ export interface SecondmentProps {
   secondment: Secondment
 }
 
-const SEASONS = ['Winter', 'Spring', 'Summer', 'Autumn']
+function formatPeriod(startDate: Date, endDate: Date): string {
+  const options: Intl.DateTimeFormatOptions = {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+    timeZone: 'UTC',
+  }
 
-function formatSeason(date: Date): string {
-  return `${SEASONS[Math.floor(((date.getUTCMonth() + 1) % 12) / 3)]} ${date.getUTCFullYear()}`
+  const start = startDate.toLocaleDateString('en-GB', options)
+  const end = endDate.toLocaleDateString('en-GB', options)
+
+  return `${start} – ${end}`
+
 }
 
 export default function Secondment({ secondment }: SecondmentProps) {
@@ -22,7 +31,10 @@ export default function Secondment({ secondment }: SecondmentProps) {
         <h2 className="text-lg sm:text-xl lg:text-2xl">{secondment.researcher}</h2>
         <p className="text-accent-500 mt-1 text-sm font-semibold">{secondment.from}</p>
         <p className="mt-2">
-          {secondment.secondment} ({formatSeason(secondment.date)})
+          {secondment.secondment}
+        </p>
+        <p className="mt-1 text-sm text-gray-500">
+          {formatPeriod(secondment.startDate, secondment.endDate)}
         </p>
       </div>
     </div>

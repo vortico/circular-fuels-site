@@ -2,12 +2,32 @@ import Secondment from './_components/Secondment'
 import type { Secondment as TSecondment } from './_components/types'
 
 const secondments: TSecondment[] = [
+   {
+    image: '/images/secondments/2026-10-12.jpeg',
+    from: 'GreenX Technology Ltd',
+    secondment: 'Universidad de Sevilla',
+    researcher: 'Qi Zhang',
+    date: new Date('2026-10-12'),
+    startDate: new Date('2026-10-12'),
+    endDate: new Date('2026-11-11'),
+  },
+   {
+    image: '/images/secondments/2026-10-01.jpg',
+    from: 'Universitaet Hohenheim',
+    secondment: 'Universidad de Sevilla',
+    researcher: 'Gabriel De Freitas Batista',
+    date: new Date('2026-10-01'),
+    startDate: new Date('2026-10-01'),
+    endDate: new Date('2026-11-30'),
+  },
   {
     image: '/images/secondments/2026-07-15.jpeg',
     from: 'Universidad de Sevilla',
     secondment: 'GreenX Technology Ltd',
     researcher: 'Tomás Ramírez Reina',
     date: new Date('2026-07-15'),
+    startDate: new Date('2026-07-15'),
+    endDate: new Date('2026-09-15'),
   },
 ]
 

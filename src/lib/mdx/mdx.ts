@@ -1,5 +1,4 @@
 import { promises as fs } from 'fs'
-import path from 'path'
 
 import { globby } from 'globby'
 import { compileMDX } from 'next-mdx-remote/rsc'
@@ -46,7 +45,7 @@ async function buildDocument<M extends Metadata, F extends Frontmatter>(
 }
 
 export async function listDocuments(type: DocumentType): Promise<{ [key: string]: string }> {
-  return (await globby([path.join(CONTENT_PATH, type, '**/*.mdx')])).reduce(
+  return (await globby([`${CONTENT_PATH}/${type}/**/*.mdx`])).reduce(
     (documents: { [key: string]: string }, filePath: string) => ({
       ...documents,
       [getSlug(filePath)]: filePath,
