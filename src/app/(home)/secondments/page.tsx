@@ -3,7 +3,7 @@ import type { Secondment as TSecondment } from './_components/types'
 
 const secondments: TSecondment[] = [
    {
-    image: '/images/secondments/2026-10-12.jpeg',
+    image: '/images/secondments/2026-10-12.jpg',
     from: 'GreenX Technology Ltd',
     secondment: 'Universidad de Sevilla',
     researcher: 'Qi Zhang',
